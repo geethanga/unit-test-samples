@@ -33,6 +33,8 @@
     <Compile Include="BookService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Contracts\IBookService.cs" />
+    <Compile Include="MemberService.cs" />
+    <Compile Include="Contracts\IMemberService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />

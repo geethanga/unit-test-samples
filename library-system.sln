@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library-system", "library-system\library-system.csproj", "{4971B105-0D0E-470A-A9B8-FE95F0506251}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.service", "library.service\library.service.csproj", "{14FCD293-1265-4DE6-8519-3CC9C2B49949}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.data", "library.data\library.data.csproj", "{C8FDD100-8A25-404E-960D-A398C07B6D98}"
@@ -11,16 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.domain", "library.d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.service.tests", "library.service.tests\library.service.tests.csproj", "{A05CCE11-8FAE-4DC5-B643-3246A3AC362D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library.client-app", "library.client-app\library.client-app.csproj", "{F2B8BB3A-AACF-4107-B604-D5C0EE218099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4971B105-0D0E-470A-A9B8-FE95F0506251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4971B105-0D0E-470A-A9B8-FE95F0506251}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4971B105-0D0E-470A-A9B8-FE95F0506251}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4971B105-0D0E-470A-A9B8-FE95F0506251}.Release|Any CPU.Build.0 = Release|Any CPU
 		{14FCD293-1265-4DE6-8519-3CC9C2B49949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{14FCD293-1265-4DE6-8519-3CC9C2B49949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14FCD293-1265-4DE6-8519-3CC9C2B49949}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +33,10 @@ Global
 		{A05CCE11-8FAE-4DC5-B643-3246A3AC362D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A05CCE11-8FAE-4DC5-B643-3246A3AC362D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A05CCE11-8FAE-4DC5-B643-3246A3AC362D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B8BB3A-AACF-4107-B604-D5C0EE218099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B8BB3A-AACF-4107-B604-D5C0EE218099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B8BB3A-AACF-4107-B604-D5C0EE218099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B8BB3A-AACF-4107-B604-D5C0EE218099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
