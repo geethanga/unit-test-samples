@@ -73,9 +73,7 @@ namespace library.service.tests
         {
             var bookRepositoryMock = new Mock<IRepository<Book>>();
             bookRepositoryMock.Setup(bookRepository => bookRepository.Save(It.IsAny<Book>())).Returns(10);
-            //var bookService = new BookService(bookRepositoryMock.Object);
-
-            var bookService = new BookService(new BookRepositoryMongoDb());
+            var bookService = new BookService(bookRepositoryMock.Object);
 
             var newBook = bookService.CreateBook("The Da Vinci Code", "Dan Brown", 100, 10);
 
